@@ -1,0 +1,2 @@
+ //用于输出scala代码的底层实现
+ scalac -Xprint:parse XX.scala

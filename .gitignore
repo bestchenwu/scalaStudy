@@ -1,0 +1,11 @@
+**/.classpath
+**/.project
+/bin
+**/.settings
+/.project
+/.settings
+/.classpath
+/.cache-main
+src/**/*.class
+
+
