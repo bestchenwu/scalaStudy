@@ -7,5 +7,5 @@
 /.classpath
 /.cache-main
 src/**/*.class
-
-
+ScalaProgramingAction.iml
+.idea/

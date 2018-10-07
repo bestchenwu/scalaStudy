@@ -1,7 +1,9 @@
 package unitFour
 
 class OuterClass {
-   class InnerClass{
-     var x:Int = 3;
-   }
+
+  class InnerClass {
+    var x: Int = 3;
+  }
+
 }
