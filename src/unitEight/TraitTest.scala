@@ -27,6 +27,19 @@ class tiger extends Animal with swim{
 
   override def swiming: Unit = {}
 }
+
+trait Pizza{
+    var PizzaType:Int
+    var name:String = "pizze"
+}
+
+class MyPizza extends Pizza{
+     //如果父类没有声明变量的值，则子类中需要加变量的声明
+     var PizzaType = 3
+     //如果父类中有声明变量类型，则不需要加变量的声明
+     name = "myPizza"
+}
+
 object TraitTest extends App{
 
   val dog = new Dog()
