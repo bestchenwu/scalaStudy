@@ -9,3 +9,5 @@
 src/**/*.class
 ScalaProgramingAction.iml
 .idea/
+scalaStudy.iml
+/out
