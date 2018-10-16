@@ -24,12 +24,17 @@ object ExtractTest extends App{
     //这里两个参数列表 实际上是自定义函数，第一个参数表示后一个语句的处理条件
     println(array.foldLeft(80)(_+_));
     //scanLeft返回的是一个序列，而不是一个值
-    def product(x:Int,y:Int)={
-      val result = x*y
-      println(s"${x}*${y}=${result}")
-      result
-    }
-    val result = array.scanLeft(10)(product)
-    result.foreach(println)
+//    def product(x:Int,y:Int)={
+//      val result = x*y
+//      println(s"${x}*${y}=${result}")
+//      result
+//    }
+//    val result = array.scanLeft(10)(product)
+//    result.foreach(println)
     //array.drop(3).foreach(println);
+     val duplicateArray = Array(1,1,2,3,2)
+     //val distinctArray = duplicateArray.distinct
+     val distinctArray = duplicateArray.toSet
+    //distinctArray.foreach(println)
+    println(distinctArray)
 }
